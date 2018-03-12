@@ -1,0 +1,130 @@
+body {
+    cursor: url('cursor.cur'), auto;
+    text-align: center;
+    background: url("jedi.jpg") no-repeat center center fixed;
+    background: url("https://images.alphacoders.com/107/thumb-1920-107763.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* The above is a standrard command package to properly add a background image so that it covers all the site*/
+}
+/* We'll create a class which will give us the ability to delete the grid by toggling it */
+.borderDelete {
+    border: none;
+}
+h1 {
+    max-width: 100%
+    /* If the logo can't be displayed we'll display the default title */
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+h2 {
+    margin: 1em 0 0.25em;
+}
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+/* I'll create a class that will give the text a form like the star wars text */
+.starWars {
+    perspective: 50em;
+    color: #feda4a;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 220%;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 150%;
+    transform: rotateX(60deg);
+}
+h5 {
+    display: inline-block;
+  /* This will make sure the form's text is displayed next to the buttons but is also able to rotate */
+}
+.buttons {
+    cursor: pointer;
+    background: black;
+    color: #feda4a;
+    border-radius: 5px;
+}
+input[type=number] {
+    background: black;
+    color: #feda4a;
+    border-radius: 5px;
+}
+#EraserCheck {
+    display: inline;
+    color: #feda4a;
+}
+table,
+tr,
+td {
+    background-color: rgba(146, 168, 170, 0.3);
+    border: 1px solid black;
+}
+/* I'll style the div that will create the light saber effect in the canvas */
+#moved{
+    height: 12.5px;
+    width: 2.5px;
+    background-color: red;
+    color: red;
+    position: absolute;
+    transform: rotate(-45deg);
+    box-shadow: 0 0 10px 3px;
+    display:none;
+    /* I need to remove pointer events from it, to prevent confusion when it goes under the cursor */
+    pointer-events: none;
+}
+/* I'll style the window that will contain the previous colors and will show by right click */
+#usedColors {
+    cursor: pointer;
+    height: 92px;
+    width: 19px;
+    border: 2px solid black;
+    padding: 2px;
+    display: none;
+    position: absolute;
+    background-color: rgb(249, 249, 249);
+}
+/* I'll style the boxes that will represent the used colors */
+.usedColor {
+    height: 15px;
+    width: 15px;
+    border: 1px solid rgb(6, 6, 6);
+    margin: 1px;
+    display: block;
+}
+/* When the user hovers over those boxes he must understand he can select them */
+.usedColor:hover {
+    border: 2px ridge rgb(6, 6, 6);
+}
+/* I have placed the checkbox in a div so that I can easily style it to look like the other buttons */
+#CheckBoxContainer {
+    background-color: black;
+    border-top: 2px solid rgb(213, 213, 213);
+    border-left: 2px solid rgb(213, 213, 213);
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-radius: 5px;
+    cursor: default;
+    display: inline;
+    width: 50px;
+    height: 20px;
+    color: #feda4a;
+}
+table {
+    cursor: url(http://i.imgur.com/WQIuv00.png), pointer;
+    /* Light saber cursor in the table */
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+tr {
+    height: 12px;
+}
+td {
+    background-color: rgba(146, 168, 170, 0.3);
+    width: 12px;
+}
+input[type=number] {
+    width: 6em;
+}

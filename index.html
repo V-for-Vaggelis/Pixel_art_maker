@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- This script adds jquery to my website -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>
+    <img src="logo.png" alt="Lab: Pixel Art Maker"></img>
+    <!-- I added a star wars logo as title, if it doesn't load the default title will be displayed -->
+  </h1>
+  <div class="text_container">
+    <h2 class="starWars">Choose Field Size</h2>
+    <form id="sizePicker">
+    <!-- The HTML <form> element represents a document section that contains interactive controls to submit information to a web server. -->
+      <h5 class="starWars">Field Height:</h5>
+      <input type="number" id="input_height" name="height" min="1" max="70" value="20">
+      <h5 class="starWars">Field Width:</h5>
+      <input type="number" id="input_width" name="width" min="1" max="150" value="50">
+      <input type="submit" id="submit" class="buttons" value="Create force-field"><br>
+      <input type="button" id="removeGrid" class="buttons" name="noGrid" value="Toggle Grid">
+      <input type="button" id="clearField" class="buttons" name="clearField" value="Clear force-field"><br>
+      <br>
+      <div id="CheckBoxContainer">
+        <span>Eraser:</span><input type="checkbox" id="EraserCheck" name="Eraser" value="Enabled">
+      </div>
+    </form>
+
+    <h2 class="starWars">Pick Saber Color</h2>
+    <input type="color" id="colorPicker" value="#fa1414">
+    <!-- The above line of code automatically opens a color picker for the user when he clicks on the element -->
+    <h2 class="starWars">Force-Field Canvas</h2>
+  </div>
+  <div id="moved"></div>
+  <div id="usedColors"></div>
+  <table id="pixel_canvas"></table>
+  <!-- The table tag creates a table, I can add lines to it with the tr (table row) tag, the th (table header) tag creates a header for it and the td defines a table cell. -->
+  <script src="designs.js"></script>
+  <!-- Points to my javascript, we always include it before closing the body -->
+</body>
+</html>
