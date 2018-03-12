@@ -9,7 +9,7 @@ It is style with a unique star wars theme. The user is able to create a grid whe
 <li>Paint by clicking on a box</li>
 </ol>
 
-####Extra functionalities
+#### Extra functionalities
 in the spirit of practicing my javascript and jquery skills I have added some extra possibilities for the user:
 <ol>
 <li>Check the eraser button to correct your drawing <bold>(important: uncheck the button once you're done to keep painting</bold></li>
@@ -19,7 +19,7 @@ in the spirit of practicing my javascript and jquery skills I have added some ex
 <li>Select one of your 5 previously used colors by right-clicking on the grid</li>
 </ol>
 
-##Compatibility
+## Compatibility
 As mentioned above this website is not responsive and it probably will only display properly at desktop devices, because the purpose of this project was clearly to practice javascript and jquery skills.
 As for different web browsers, the website was only tested for "Google chrome" and "Mozilla Firefox" but it should work on all browsers. If not please report any issues.
 
