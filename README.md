@@ -13,7 +13,7 @@ It is also styled with a unique star wars theme.
 #### Extra functionalities
 in the spirit of practicing my javascript and jquery skills I have added some extra possibilities for the user:
 <ol>
-<li>Check the eraser button to correct your drawing **(important: uncheck the button once you're donein order to keep painting)** </li>
+<li>Check the eraser button to correct your drawing ** (important: uncheck the button once you're donein order to keep painting) ** </li>
 <li>You can paint continuously by dragging the mouse</li>
 <li>Use the "Clear Force field" button to delete any current painting from the grid</li>
 <li>Use the "toggle grid" button to make the cell-borders invisible. Press it again to make them re-appear</li>
