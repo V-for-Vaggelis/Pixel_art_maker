@@ -3,7 +3,11 @@ The pixel art maker is a drawing-canvas website developed by using html, CSS, ja
 The user is able to create a grid where he can paint by picking different colors.
 It is also styled with a unique star wars theme.
 
-## Instructions
+## How to run
+
+The app should be available at <a href="https://v-for-vaggelis.github.io/Pixel_art_maker/">this live page</a>
+
+## How to use
 <ol>
 <li>Create a grid by clicking on the "Create force filed" button (You can also change the size of the grid using the equivalent fields). </li>
 <li>Select a color by clicking on the initially red box</li>
@@ -23,8 +27,3 @@ in the spirit of practicing my javascript and jquery skills I have added some ex
 ## Compatibility
 As mentioned above this website is not responsive and it will probably only display properly on desktop devices, because the purpose of this project was purely to practice javascript and jquery skills.
 As for different web browsers, the website was only tested for "Google chrome" and "Mozilla Firefox" but it should work on any browser. If not please report any issues.
-
-
-
-
- 
